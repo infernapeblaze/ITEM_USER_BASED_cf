@@ -35,7 +35,7 @@ Different implementations of recommender system.
   <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/yelp_sparsity_restaurant.JPG" width="340"/>
 </p>
 ```python
->>> fulldf=pd.read_csv("https://raw.githubusercontent.com/xuwenyihust/Recommendation-Systems/master/data/bigdf.csv")
+
 >>> print(fulldf.shape)
 (149319, 15)
 >>> print(fulldf['user_id'].unique().shape)
